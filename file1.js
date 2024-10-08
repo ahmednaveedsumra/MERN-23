@@ -10,9 +10,6 @@ for(let i=0;i<=100;i++){
         console.log("Buzz")
 
     }
-    else{
-            console.log(i)
     
-        }
     }
 
