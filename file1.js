@@ -13,8 +13,8 @@ for(let i=0;i<=100;i++){
     
     }
 
-    const master =() =>{
-        console.log(master);
+    const arr =() =>{
+        console.log(arr);
         
     }
 
