@@ -16,7 +16,7 @@ arr3.unshift(1);
 console.log(arr3);
 
 let index = arr3.indexOf(9); 
-console.log(index);
+console.log(index); 
 console.log(arr3.indexOf(5));
 
 
