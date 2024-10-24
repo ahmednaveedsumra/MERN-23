@@ -7,7 +7,7 @@ const startStopwatch = () => {
       new Promise((res) => {
         setTimeout(() => {
           let time = new Date().getTime();
-         // console.log(time);
+          //console.log(time);
           
           let timeshow = Math.floor((time - starttime) / 1000); 
           console.log(timeshow);
@@ -21,9 +21,10 @@ const startStopwatch = () => {
     updateStopwatch(); 
   }
   
-  const main = () => {
-    startStopwatch();
-  }
   
-  main();
+ const main = async() => {
+    startStopwatch();
+ }
+  
+ main();
   
